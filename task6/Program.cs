@@ -3,7 +3,7 @@
 // -3 -> нет
 // 7 -> нет
 
-Console.Write($"Введите число: ");
+Console.Write("Введите число: ");
 int number = int.Parse(Console.ReadLine());
 int div = number % 2;
 if (div == 0)

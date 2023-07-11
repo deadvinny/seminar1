@@ -3,7 +3,7 @@
 // 782 -> 2
 // 918 -> 8
 
-Console.Write($"Введите трехзначное число: ");
+Console.Write("Введите трехзначное число: ");
 int number = int.Parse(Console.ReadLine());
 if (number > 999 || number < 100 ) 
 {
